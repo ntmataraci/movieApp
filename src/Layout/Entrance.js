@@ -13,7 +13,7 @@ const entranceVideo=useRef()
 useEffect(()=>{
 const timerVal=setTimeout( ()=>{
     setLoad(true)
-},3000)
+},10000)
 return (()=>clearTimeout(timerVal))
 },[])
 
@@ -21,16 +21,18 @@ const mute = () =>{
     entranceVideo.current.muted=!entranceVideo.current.muted
     setmuteButton(!muteButton)
 }
+
+
 const screenWidth=window.innerWidth
     return(
         <div style={{width:"100%",position:"relative"}}> 
             {load?
             <>
-            <video autoPlay muted loop className={style.image} ref={entranceVideo}>
+            <video autoPlay muted loop className={style.image} ref={entranceVideo} poster="./sw.jpg" preload="none">
                 <source src="sw.mp4" type="video/mp4"></source>
             </video>
            </>:
-                      <img src="/sw.jpg" className={style.image}></img>
+            <img src="./sw.jpg" className={style.image}></img>
 
 }
             <div className={style.container}>

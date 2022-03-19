@@ -12,6 +12,7 @@ position: fixed;
 top:5%;
 left:20%;
 z-index: 6;
+color:white;
 }
 
 @media screen and (max-width: 750px) {
