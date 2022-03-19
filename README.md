@@ -1,5 +1,6 @@
 # Movie App ReactJS
 **Live Demo** https://ntmataraci.github.io/movieApp/
+(use play or list button)
 
 ## Functions
 - **Api Connections**
