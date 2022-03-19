@@ -1,0 +1,17 @@
+.main {
+    color:white;
+    font-size: 4rem;
+    background-color: rgba(0, 0, 0, 0.11);
+z-index: 5;
+height:150px;
+border:none;
+}
+
+.left{
+    position: absolute;
+    left:0;
+}
+.right{
+    position: absolute;
+    right:0;
+}

@@ -1,0 +1,11 @@
+.main {
+        object-fit: cover;
+        max-height: 150px;
+        width:300px;
+    }
+
+.photo {
+    object-fit: cover;
+    max-height: 200px;
+    width:250px;
+}
